@@ -19,8 +19,14 @@ const IndexPage = () => (
     </p>
     <p>
       My interests include <Link to="/reading">reading</Link>,{' '}
-      <a href="https://brutalist-web.design/">brutalist web design</a>, and{' '}
-      <a href="https://github.com/PlotterClub/penplotPlayground">
+      <a href="https://brutalist-web.design/" target="_blank">
+        brutalist web design
+      </a>
+      , and{' '}
+      <a
+        href="https://github.com/PlotterClub/penplotPlayground"
+        target="_blank"
+      >
         plotting generative art
       </a>
       .
