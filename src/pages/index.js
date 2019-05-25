@@ -33,8 +33,10 @@ const IndexPage = () => (
     </p>
     <p>
       You can learn more about me on{' '}
-      <a href="https://brutalist-web.design/">LinkedIn</a>, and – if you're good
-      at guessing – you're welcome to email me.
+      <a href="https://www.linkedin.com/in/danisaza/" target="_blank">
+        LinkedIn
+      </a>
+      , and – if you're good at guessing – you're welcome to email me.
     </p>
   </Layout>
 )
