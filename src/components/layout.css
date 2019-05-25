@@ -342,6 +342,9 @@ ul {
   list-style-position: outside;
   list-style-image: none;
 }
+ul.reading {
+  list-style-type: none;
+}
 ol {
   margin-left: 1.45rem;
   margin-right: 0;

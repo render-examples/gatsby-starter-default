@@ -8,13 +8,22 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <p>
+      I write full-stack software for the web. I like math, statistics, and
+      devops.
+    </p>
+    <p>
+      I'm the Head of Engineering at{' '}
+      <a href="https://listwithclever.com/">Clever Real Estate</a>.
+    </p>
+    <p>
+      My other interests include <Link to="/reading">reading</Link>,{' '}
+      <a href="https://brutalist-web.design/">brutalist web design</a>, and{' '}
+      <a href="https://github.com/PlotterClub/penplotPlayground">
+        plotting generative art
+      </a>
+      .
+    </p>
   </Layout>
 )
 
