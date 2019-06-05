@@ -10,7 +10,7 @@ const IndexPage = () => (
     <h4>Currently reading</h4>
     <ul className="reading">
       <li>
-        <i>Influence</i> - Robert B. Cialdini
+        <i>Company of One</i> - Paul Jarvis
       </li>
     </ul>
     <h4>Next up</h4>
@@ -21,6 +21,12 @@ const IndexPage = () => (
     </ul>
     <h4>Recently read</h4>
     <ul className="reading">
+      <li>
+        <s>
+          <i>Influence</i> - Robert B. Cialdini
+        </s>
+        {` `}(gave up, wasn't captivating)
+      </li>
       <li>
         <i>The Culture Code</i> - Daniel Coyle
       </li>
