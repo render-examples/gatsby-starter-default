@@ -242,6 +242,14 @@ h1 {
   font-size: 2.25rem;
   line-height: 1.1;
 }
+h1::selection {
+  background-color: #00FFC5;
+  color: #26547C;
+}
+h1 a::selection {
+  background-color: #00FFC5;
+  color: #26547C;
+}
 h2 {
   margin-left: 0;
   margin-right: 0;
@@ -292,6 +300,10 @@ h4 {
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
+}
+h4::selection {
+  background-color: #00FFC5;
+  color: #26547C;
 }
 h5 {
   margin-left: 0;
@@ -393,6 +405,14 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+}
+p::selection {
+  background-color: #00FFC5;
+  color: #26547C;
+}
+p a::selection {
+  background-color: #00FFC5;
+  color: #26547C;
 }
 figure {
   margin-left: 0;
@@ -522,6 +542,22 @@ th {
 }
 li {
   margin-bottom: calc(1.45rem / 2);
+}
+li::selection {
+  background-color: #00FFC5;
+  color: #26547C;
+}
+li i::selection {
+  background-color: #00FFC5;
+  color: #26547C;
+}
+li s::selection {
+  background-color: #00FFC5;
+  color: #26547C;
+}
+li a::selection {
+  background-color: #00FFC5;
+  color: #26547C;
 }
 ol li {
   padding-left: 0;
