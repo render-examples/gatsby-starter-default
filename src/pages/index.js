@@ -11,6 +11,7 @@ const IndexPage = () => (
       title="Home"
       keywords={[`dan isaza`, `engineering`, `devops`, `leadership`]}
     />
+    <p>Hi there! I'm Dan. 👋🏽</p>
     <p>
       I write full-stack software for the web. I like math, statistics, and
       devops.
@@ -39,8 +40,16 @@ const IndexPage = () => (
       <a href="https://www.linkedin.com/in/danisaza/" target="_blank">
         LinkedIn
       </a>
-      , and – if you're good at guessing – you're welcome to email me.
+      .
     </p>
+    <div className="announcement">
+      <h4>Clever is Hiring!</h4>
+      <p>We're looking for a Sr. Backend Engineer with experience in Django.</p>
+      <p>If you're interested, please reach out to me at:</p>
+      <p>
+        <i>[my name] at movewithclever.com</i>
+      </p>
+    </div>
   </Layout>
 )
 

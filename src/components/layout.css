@@ -52,6 +52,12 @@ a:hover {
   border-bottom-color: rgb(138, 75, 175, 0.5);
   outline-width: 0;
 }
+div.announcement {
+  background: aliceblue;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 1px 1px 5px grey;
+}
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
@@ -542,6 +548,10 @@ th {
 }
 li {
   margin-bottom: calc(1.45rem / 2);
+}
+i::selection {
+  background-color: #00FFC5;
+  color: #26547C;
 }
 li::selection {
   background-color: #00FFC5;
