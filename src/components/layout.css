@@ -52,7 +52,7 @@ a:hover {
   border-bottom-color: rgb(138, 75, 175, 0.5);
   outline-width: 0;
 }
-div.announcement {
+p.announcement {
   background: aliceblue;
   border-radius: 8px;
   padding: 20px;

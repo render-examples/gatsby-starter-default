@@ -18,18 +18,21 @@ const IndexPage = () => (
     </p>
     <p>
       I'm currently the Head of Engineering at{' '}
-      <a href="https://listwithclever.com/">Clever Real Estate</a>. I studied
-      Math & CS at Stanford.
+      <a href="https://listwithclever.com/" target="_blank" rel="noopener">
+        Clever Real Estate
+      </a>
+      . I studied Math & CS at Stanford.
     </p>
     <p>
       My interests include <Link to="/reading">reading</Link>,{' '}
-      <a href="https://brutalist-web.design/" target="_blank">
+      <a href="https://brutalist-web.design/" target="_blank" rel="noopener">
         brutalist web design
       </a>
       , and{' '}
       <a
         href="https://github.com/PlotterClub/penplotPlayground"
         target="_blank"
+        rel="noopener"
       >
         plotting generative art
       </a>
@@ -37,19 +40,23 @@ const IndexPage = () => (
     </p>
     <p>
       You can learn more about me on{' '}
-      <a href="https://www.linkedin.com/in/danisaza/" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/danisaza/"
+        target="_blank"
+        rel="noopener"
+      >
         LinkedIn
       </a>
       .
     </p>
-    <div className="announcement">
+    <p className="announcement">
       <h4>Clever is Hiring!</h4>
       <p>We're looking for a Sr. Backend Engineer with experience in Django.</p>
       <p>If you're interested, please reach out to me at:</p>
       <p>
-        <i>[my name] at movewithclever.com</i>
+        <i>[first name] at movewithclever.com</i>
       </p>
-    </div>
+    </p>
   </Layout>
 )
 
