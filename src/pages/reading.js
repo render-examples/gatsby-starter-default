@@ -10,7 +10,7 @@ const IndexPage = () => (
     <h4>Currently reading</h4>
     <ul className="reading">
       <li>
-        <i>The Last Black Unicorn</i> - Tiffany Haddish
+        <i>Finite and Infinite Games</i> - James P. Carse
       </li>
     </ul>
     <h4>Reading Soon</h4>
@@ -24,6 +24,9 @@ const IndexPage = () => (
     </ul>
     <h4>Recently read</h4>
     <ul className="reading">
+      <li>
+        <i>The Last Black Unicorn</i> - Tiffany Haddish
+      </li>
       <li>
         <i>Company of One</i> - Paul Jarvis
       </li>
