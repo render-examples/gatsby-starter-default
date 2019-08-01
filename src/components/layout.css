@@ -4,7 +4,6 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  color: #333;
   margin: 0;
 }
 article,
@@ -205,7 +204,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: #333;
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
