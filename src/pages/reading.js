@@ -7,10 +7,25 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
     <SEO title="Reading" keywords={[`gatsby`, `application`, `react`]} />
+    <h3>How I Read</h3>
+    <p>
+      <ul>
+        <li>I do most of my reading with audiobooks</li>
+        <li>I typically read multiple books at once</li>
+        <li>I am open to not finishing books</li>
+      </ul>
+    </p>
+    <hr />
     <h4>Currently reading</h4>
     <ul className="reading">
       <li>
-        <i>Finite and Infinite Games</i> - James P. Carse
+        <i>We Were Eight Years in Power</i> - Ta-Nehisi Coates
+      </li>
+      <li>
+        <i>High Output Management</i> - Andy Grove
+      </li>
+      <li>
+        <i>Atomic Habits</i> - James Clear
       </li>
     </ul>
     <h4>Reading Soon</h4>
@@ -19,11 +34,17 @@ const IndexPage = () => (
         <i>The Goal</i> - Eliyahu M. Goldratt
       </li>
       <li>
-        <i>High Output Management</i> - Andy Grove
+        <i>Finite and Infinite Games</i> - James P. Carse
+      </li>
+      <li>
+        <i>The Five Dysfunctions of a Team</i> - Patrick Lencioni
       </li>
     </ul>
     <h4>Recently read</h4>
     <ul className="reading">
+      <li>
+        <i>The Manager's Path</i> - Camille Fournier
+      </li>
       <li>
         <i>The Last Black Unicorn</i> - Tiffany Haddish
       </li>
