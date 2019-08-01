@@ -4,6 +4,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
+  color: #333;
   margin: 0;
 }
 article,
@@ -40,7 +41,7 @@ template {
 a {
   text-decoration: none;
   background-color: transparent;
-  color: #8A4BAF;
+  color: #8a4baf;
   -webkit-text-decoration-skip: objects;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -243,12 +244,12 @@ h1 {
   line-height: 1.1;
 }
 h1::selection {
-  background-color: #00FFC5;
-  color: #26547C;
+  background-color: #00ffc5;
+  color: #26547c;
 }
 h1 a::selection {
-  background-color: #00FFC5;
-  color: #26547C;
+  background-color: #00ffc5;
+  color: #26547c;
 }
 h2 {
   margin-left: 0;
@@ -302,8 +303,8 @@ h4 {
   line-height: 1.1;
 }
 h4::selection {
-  background-color: #00FFC5;
-  color: #26547C;
+  background-color: #00ffc5;
+  color: #26547c;
 }
 h5 {
   margin-left: 0;
@@ -407,12 +408,12 @@ p {
   margin-bottom: 1.45rem;
 }
 p::selection {
-  background-color: #00FFC5;
-  color: #26547C;
+  background-color: #00ffc5;
+  color: #26547c;
 }
 p a::selection {
-  background-color: #00FFC5;
-  color: #26547C;
+  background-color: #00ffc5;
+  color: #26547c;
 }
 p.announcement {
   background: aliceblue;
@@ -550,24 +551,24 @@ li {
   margin-bottom: calc(1.45rem / 2);
 }
 i::selection {
-  background-color: #00FFC5;
-  color: #26547C;
+  background-color: #00ffc5;
+  color: #26547c;
 }
 li::selection {
-  background-color: #00FFC5;
-  color: #26547C;
+  background-color: #00ffc5;
+  color: #26547c;
 }
 li i::selection {
-  background-color: #00FFC5;
-  color: #26547C;
+  background-color: #00ffc5;
+  color: #26547c;
 }
 li s::selection {
-  background-color: #00FFC5;
-  color: #26547C;
+  background-color: #00ffc5;
+  color: #26547c;
 }
 li a::selection {
-  background-color: #00FFC5;
-  color: #26547C;
+  background-color: #00ffc5;
+  color: #26547c;
 }
 ol li {
   padding-left: 0;
