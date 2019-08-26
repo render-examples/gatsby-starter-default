@@ -49,14 +49,19 @@ const IndexPage = () => (
       </a>
       .
     </p>
-    <p className="announcement">
-      <h4>Clever is Hiring!</h4>
-      <p>We're looking for a Sr. Backend Engineer with experience in Django.</p>
-      <p>If you're interested, please reach out to me at:</p>
-      <p>
-        <i>[first name] at movewithclever.com</i>
-      </p>
-    </p>
+    <pre>
+      <code>
+        <p>Clever is Hiring! (for 2 roles)</p>
+        <br />
+        <p>- Sr. Backend Engineer with experience in Django.</p>
+        <p>- Sr. Designer with experience in CRO focused work</p>
+        <br />
+        <p>If you're interested, please reach out to me at:</p>
+        <p>
+          <i>[first name] at this domain</i>
+        </p>
+      </code>
+    </pre>
   </Layout>
 )
 

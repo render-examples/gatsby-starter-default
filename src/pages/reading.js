@@ -19,13 +19,13 @@ const IndexPage = () => (
     <h4>Currently reading</h4>
     <ul className="reading">
       <li>
-        <i>We Were Eight Years in Power</i> - Ta-Nehisi Coates
-      </li>
-      <li>
         <i>High Output Management</i> - Andy Grove
       </li>
       <li>
-        <i>Atomic Habits</i> - James Clear
+        <i>I Will Teach You to Be Rich</i> - Ramit Sethi
+      </li>
+      <li>
+        <i>The Great CEO Within</i> - Matt Mochary
       </li>
     </ul>
     <h4>Reading Soon</h4>
@@ -42,6 +42,21 @@ const IndexPage = () => (
     </ul>
     <h4>Recently read</h4>
     <ul className="reading">
+      <li>
+        <i>No is Not Enough</i> - Naomi Klein
+      </li>
+      <li>
+        <i>The Checklist Manifesto</i> - Atul Gawande
+      </li>
+      <li>
+        <i>Atomic Habits</i> - James Clear
+      </li>
+      <li>
+        <i>Managing Oneself</i> - Peter F. Drucker
+      </li>
+      <li>
+        <i>We Were Eight Years in Power</i> - Ta-Nehisi Coates
+      </li>
       <li>
         <i>The Manager's Path</i> - Camille Fournier
       </li>
@@ -106,6 +121,9 @@ const IndexPage = () => (
       </li>
       <li>
         <i>Who Rules the World?</i> - Noam Chomsky
+      </li>
+      <li>
+        <i>Four Futures</i> - Peter Frase
       </li>
       <li>
         <i>The Bottom Billion</i> - Paul Collier
