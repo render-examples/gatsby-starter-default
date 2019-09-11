@@ -242,14 +242,6 @@ h1 {
   font-size: 2.25rem;
   line-height: 1.1;
 }
-h1::selection {
-  background-color: #00ffc5;
-  color: #26547c;
-}
-h1 a::selection {
-  background-color: #00ffc5;
-  color: #26547c;
-}
 h2 {
   margin-left: 0;
   margin-right: 0;
@@ -284,7 +276,7 @@ h3 {
   font-size: 1.38316rem;
   line-height: 1.1;
 }
-h4 {
+h3 h4 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -300,10 +292,6 @@ h4 {
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
-}
-h4::selection {
-  background-color: #00ffc5;
-  color: #26547c;
 }
 h5 {
   margin-left: 0;
@@ -405,20 +393,6 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-}
-p::selection {
-  background-color: #00ffc5;
-  color: #26547c;
-}
-p a::selection {
-  background-color: #00ffc5;
-  color: #26547c;
-}
-p.announcement {
-  background: aliceblue;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 1px 1px 5px grey;
 }
 figure {
   margin-left: 0;
@@ -549,26 +523,6 @@ th {
 li {
   margin-bottom: calc(1.45rem / 2);
 }
-i::selection {
-  background-color: #00ffc5;
-  color: #26547c;
-}
-li::selection {
-  background-color: #00ffc5;
-  color: #26547c;
-}
-li i::selection {
-  background-color: #00ffc5;
-  color: #26547c;
-}
-li s::selection {
-  background-color: #00ffc5;
-  color: #26547c;
-}
-li a::selection {
-  background-color: #00ffc5;
-  color: #26547c;
-}
 ol li {
   padding-left: 0;
 }
@@ -672,6 +626,10 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: '';
+}
+::selection {
+  background-color: #00ffc5;
+  color: #26547c;
 }
 @media only screen and (max-width: 480px) {
   html {
