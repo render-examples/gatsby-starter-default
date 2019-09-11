@@ -24,22 +24,7 @@ const IndexPage = () => (
       . I studied Math & CS at Stanford.
     </p>
     <p>
-      My interests include <Link to="/reading">reading</Link>,{' '}
-      <a href="https://brutalist-web.design/" target="_blank" rel="noopener">
-        brutalist web design
-      </a>
-      , and{' '}
-      <a
-        href="https://github.com/PlotterClub/penplotPlayground"
-        target="_blank"
-        rel="noopener"
-      >
-        plotting generative art
-      </a>
-      .
-    </p>
-    <p>
-      You can learn more about me on{' '}
+      For more about my professional background, check me out on{' '}
       <a
         href="https://www.linkedin.com/in/danisaza/"
         target="_blank"
@@ -49,19 +34,23 @@ const IndexPage = () => (
       </a>
       .
     </p>
-    <pre>
-      <code>
-        <p>Clever is Hiring! (for 2 roles)</p>
-        <br />
-        <p>- Sr. Backend Engineer with experience in Django.</p>
-        <p>- Sr. Designer with experience in CRO focused work</p>
-        <br />
-        <p>If you're interested, please reach out to me at:</p>
-        <p>
-          <i>[first name] at this domain</i>
-        </p>
-      </code>
-    </pre>
+    <br />
+    <h3>Stuff to do here</h3>
+    <p>
+      For now, you can keep up with <Link to="/reading">my reading list</Link>.
+    </p>
+    <p>Eventually, I may publish stuff here.</p>
+    <p>
+      Until then, check out this{' '}
+      <a
+        href="https://github.com/PlotterClub/penplotPlayground"
+        target="_blank"
+        rel="noopener"
+      >
+        open-source code
+      </a>{' '}
+      I wrote for plotter robots!
+    </p>
   </Layout>
 )
 

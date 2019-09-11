@@ -7,13 +7,26 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
     <SEO title="Reading" keywords={[`gatsby`, `application`, `react`]} />
-    <h3>How I Read</h3>
+    <h2>Reading</h2>
     <p>
-      <ul>
-        <li>I do most of my reading with audiobooks</li>
-        <li>I typically read multiple books at once</li>
-        <li>I am open to not finishing books</li>
-      </ul>
+      I love reading, especially with audiobooks. I'm open to not finishing
+      books, which I represent with a <s>strikethrough</s> in the list below.
+    </p>
+    <h3>Got Suggestions?</h3>
+    <p>
+      I'm currently looking for book recommendations about Engineering
+      leadership.
+    </p>
+    <p>
+      I'd love to get your suggestions through{' '}
+      <a
+        href="https://airtable.com/shrJNWYtbol5Cg9n1"
+        target="_blank"
+        rel="noopener"
+      >
+        this form
+      </a>
+      !
     </p>
     <hr />
     <h4>Currently reading</h4>
@@ -22,10 +35,13 @@ const IndexPage = () => (
         <i>High Output Management</i> - Andy Grove
       </li>
       <li>
-        <i>I Will Teach You to Be Rich</i> - Ramit Sethi
+        <i>Finite and Infinite Games</i> - James P. Carse
       </li>
       <li>
-        <i>The Great CEO Within</i> - Matt Mochary
+        <i>Making Websites Win</i> - Ben Jesson, Karl Blanks
+      </li>
+      <li>
+        <i>Python Tricks</i> - Dan Bader
       </li>
     </ul>
     <h4>Reading Soon</h4>
@@ -34,14 +50,23 @@ const IndexPage = () => (
         <i>The Goal</i> - Eliyahu M. Goldratt
       </li>
       <li>
-        <i>Finite and Infinite Games</i> - James P. Carse
-      </li>
-      <li>
-        <i>The Five Dysfunctions of a Team</i> - Patrick Lencioni
+        <i>The Great CEO Within</i> - Matt Mochary
       </li>
     </ul>
     <h4>Recently read</h4>
     <ul className="reading">
+      <li>
+        <i>The Five Dysfunctions of a Team</i> - Patrick Lencioni
+      </li>
+      <li>
+        <i>Getting Things Done</i> - David Allen
+      </li>
+      <li>
+        <i>I Will Teach You to Be Rich</i> - Ramit Sethi
+      </li>
+      <li>
+        <i>The War of Art</i> - Steven Pressfield
+      </li>
       <li>
         <i>No is Not Enough</i> - Naomi Klein
       </li>
@@ -61,6 +86,12 @@ const IndexPage = () => (
         <i>The Manager's Path</i> - Camille Fournier
       </li>
       <li>
+        <s>
+          <i>Extreme Ownership</i> - Jocko Willink, Leif Babin
+        </s>{' '}
+        (felt like an in-depth and trigger-happy military memoir)
+      </li>
+      <li>
         <i>The Last Black Unicorn</i> - Tiffany Haddish
       </li>
       <li>
@@ -70,7 +101,7 @@ const IndexPage = () => (
         <s>
           <i>Influence</i> - Robert B. Cialdini
         </s>
-        {` `}(gave up, wasn't captivating)
+        {` `}(wasn't captivating)
       </li>
       <li>
         <i>The Culture Code</i> - Daniel Coyle
