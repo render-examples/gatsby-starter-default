@@ -35,9 +35,6 @@ const IndexPage = () => (
         <i>High Output Management</i> - Andy Grove
       </li>
       <li>
-        <i>Finite and Infinite Games</i> - James P. Carse
-      </li>
-      <li>
         <i>Making Websites Win</i> - Ben Jesson, Karl Blanks
       </li>
       <li>
@@ -55,6 +52,12 @@ const IndexPage = () => (
     </ul>
     <h4>Recently read</h4>
     <ul className="reading">
+      <li>
+        <i>Radical Candor</i> - Kim Scott
+      </li>
+      <li>
+        <i>Finite and Infinite Games</i> - James P. Carse
+      </li>
       <li>
         <i>The Five Dysfunctions of a Team</i> - Patrick Lencioni
       </li>
