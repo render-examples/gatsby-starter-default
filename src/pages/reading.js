@@ -35,9 +35,6 @@ const IndexPage = () => (
         <i>High Output Management</i> - Andy Grove
       </li>
       <li>
-        <i>Making Websites Win</i> - Ben Jesson, Karl Blanks
-      </li>
-      <li>
         <i>Python Tricks</i> - Dan Bader
       </li>
     </ul>
@@ -52,6 +49,9 @@ const IndexPage = () => (
     </ul>
     <h4>Recently read</h4>
     <ul className="reading">
+      <li>
+        <i>Making Websites Win</i> - Ben Jesson, Karl Blanks
+      </li>
       <li>
         <i>Radical Candor</i> - Kim Scott
       </li>
