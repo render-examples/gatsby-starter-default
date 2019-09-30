@@ -17,7 +17,7 @@ const IndexPage = () => (
       devops.
     </p>
     <p>
-      I'm currently the Head of Engineering at{' '}
+      I'm currently the VP of Engineering at{' '}
       <a href="https://listwithclever.com/" target="_blank" rel="noopener">
         Clever Real Estate
       </a>
