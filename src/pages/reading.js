@@ -37,21 +37,25 @@ const IndexPage = () => (
       <li>
         <i>Python Tricks</i> - Dan Bader
       </li>
+      <li>
+        <i>The Goal</i> - Eliyahu M. Goldratt
+      </li>
     </ul>
     <h4>Reading Soon</h4>
     <ul className="reading">
       <li>
-        <i>The Goal</i> - Eliyahu M. Goldratt
-      </li>
-      <li>
         <i>The Great CEO Within</i> - Matt Mochary
-      </li>
-      <li>
-        <i>Essentialism</i> - Greg McKeown
       </li>
     </ul>
     <h4>Recently read</h4>
     <ul className="reading">
+      <li>
+        <i>Trillion Dollar Coach</i> - Eric Schmidt, Jonathan Rosenberg, Alan
+        Eagle
+      </li>
+      <li>
+        <i>Essentialism</i> - Greg McKeown
+      </li>
       <li>
         <i>Toyota Kata</i> - Mike Rother
       </li>
