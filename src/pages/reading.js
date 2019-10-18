@@ -37,9 +37,6 @@ const IndexPage = () => (
       <li>
         <i>Python Tricks</i> - Dan Bader
       </li>
-      <li>
-        <i>The Goal</i> - Eliyahu M. Goldratt
-      </li>
     </ul>
     <h4>Reading Soon</h4>
     <ul className="reading">
@@ -49,6 +46,9 @@ const IndexPage = () => (
     </ul>
     <h4>Recently read</h4>
     <ul className="reading">
+      <li>
+        <i>The Goal</i> - Eliyahu M. Goldratt
+      </li>
       <li>
         <i>Trillion Dollar Coach</i> - Eric Schmidt, Jonathan Rosenberg, Alan
         Eagle
