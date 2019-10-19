@@ -37,6 +37,9 @@ const IndexPage = () => (
       <li>
         <i>Python Tricks</i> - Dan Bader
       </li>
+      <li>
+        <i>Good to Great</i> - Jim Collins
+      </li>
     </ul>
     <h4>Reading Soon</h4>
     <ul className="reading">
