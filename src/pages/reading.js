@@ -37,14 +37,14 @@ const IndexPage = () => (
       <li>
         <i>Python Tricks</i> - Dan Bader
       </li>
+      <li>
+        <i>Empire of Cotton</i> - Sven Beckert
+      </li>
     </ul>
     <h4>Reading Soon</h4>
     <ul className="reading">
       <li>
         <i>The Great CEO Within</i> - Matt Mochary
-      </li>
-      <li>
-        <i>Empire of Cotton</i> - Sven Beckert
       </li>
     </ul>
     <h4>Recently read</h4>
