@@ -43,6 +43,9 @@ const IndexPage = () => (
       <li>
         <i>The Great CEO Within</i> - Matt Mochary
       </li>
+      <li>
+        <i>Empire of Cotton</i> - Sven Beckert
+      </li>
     </ul>
     <h4>Recently read</h4>
     <ul className="reading">
