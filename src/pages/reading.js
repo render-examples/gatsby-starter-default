@@ -29,7 +29,7 @@ const IndexPage = () => (
       !
     </p>
     <hr />
-    <h4>Currently reading</h4>
+    <h4>Currently Reading</h4>
     <ul className="reading">
       <li>
         <i>High Output Management</i> - Andy Grove
@@ -38,7 +38,7 @@ const IndexPage = () => (
         <i>Python Tricks</i> - Dan Bader
       </li>
       <li>
-        <i>Empire of Cotton</i> - Sven Beckert
+        <i>What You Do Is Who You Are</i> - Ben Horowitz
       </li>
     </ul>
     <h4>Reading Soon</h4>
@@ -47,8 +47,14 @@ const IndexPage = () => (
         <i>The Great CEO Within</i> - Matt Mochary
       </li>
     </ul>
-    <h4>Recently read</h4>
+    <h4>Recently Read</h4>
     <ul className="reading">
+      <li>
+        <s>
+          <i>Empire of Cotton</i> - Sven Beckert
+        </s>{' '}
+        (Still picking at this. It's not a binge-able book.)
+      </li>
       <li>
         <i>Good to Great</i> - Jim Collins
       </li>
